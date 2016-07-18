@@ -1,0 +1,14 @@
+/home/debug_c/libwebsockets/build/CMakeFiles/dist.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-client.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-echo.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-example-client.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-example-server.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-fraggle.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-fuzxy.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-ping.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-server.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-server-extpoll.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-server-libev.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/test-server-pthreads.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/websockets.dir
+/home/debug_c/libwebsockets/build/CMakeFiles/websockets_shared.dir

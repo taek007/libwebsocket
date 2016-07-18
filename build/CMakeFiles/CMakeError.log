@@ -1,0 +1,76 @@
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec251226394/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec251226394.dir/build.make CMakeFiles/cmTryCompileExec251226394.dir/build
+gmake[1]: Entering directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec251226394.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTryCompileExec251226394.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec251226394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec251226394.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_snprintf    CMakeFiles/cmTryCompileExec251226394.dir/CheckFunctionExists.c.o  -o cmTryCompileExec251226394 -rdynamic 
+CMakeFiles/cmTryCompileExec251226394.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_snprintf'
+collect2: ld 返回 1
+gmake[1]: Leaving directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec251226394] 错误 1
+gmake: *** [cmTryCompileExec251226394/fast] 错误 2
+
+
+Determining if the function _vsnprintf exists failed with the following output:
+Change Dir: /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2058398368/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2058398368.dir/build.make CMakeFiles/cmTryCompileExec2058398368.dir/build
+gmake[1]: Entering directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2058398368.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=_vsnprintf   -o CMakeFiles/cmTryCompileExec2058398368.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2058398368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2058398368.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_vsnprintf    CMakeFiles/cmTryCompileExec2058398368.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2058398368 -rdynamic 
+CMakeFiles/cmTryCompileExec2058398368.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_vsnprintf'
+collect2: ld 返回 1
+gmake[1]: Leaving directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2058398368] 错误 1
+gmake: *** [cmTryCompileExec2058398368/fast] 错误 2
+
+
+Determining if the include file in6addr.h exists failed with the following output:
+Change Dir: /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1596968828/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1596968828.dir/build.make CMakeFiles/cmTryCompileExec1596968828.dir/build
+gmake[1]: Entering directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1596968828.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1596968828.dir/CheckIncludeFile.c.o   -c /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: 错误：in6addr.h：没有那个文件或目录
+gmake[1]: Leaving directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1596968828.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec1596968828/fast] 错误 2
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2545804411/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2545804411.dir/build.make CMakeFiles/cmTryCompileExec2545804411.dir/build
+gmake[1]: Entering directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2545804411.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2545804411.dir/CheckIncludeFile.c.o   -c /home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: 错误：vfork.h：没有那个文件或目录
+gmake[1]: Leaving directory `/home/debug_c/libwebsockets/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2545804411.dir/CheckIncludeFile.c.o] 错误 1
+gmake: *** [cmTryCompileExec2545804411/fast] 错误 2
+
+
+Determining if the function SSL_CTX_set1_param exists failed with the following output:
+
+
+Determining if the function X509_VERIFY_PARAM_set1_host exists failed with the following output:
+
+

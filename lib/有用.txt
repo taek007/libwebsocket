@@ -1,0 +1,75 @@
+LWS_VISIBLE int
+lws_callback_on_writable_all_protocol(const struct lws_context *context,
+				      const struct lws_protocols *protocol)
+{
+	struct lws_vhost *vhost = context->vhost_list;
+	int n;
+
+	while (vhost) {
+		for (n = 0; n < vhost->count_protocols; n++)
+			if (protocol->callback ==
+			    vhost->protocols[n].callback &&
+			    !strcmp(protocol->name, vhost->protocols[n].name))
+				break;
+		if (n != vhost->count_protocols)
+			lws_callback_on_writable_all_protocol_vhost(
+				vhost, &vhost->protocols[n]);
+
+		vhost = vhost->vhost_next;
+	}
+
+	return 0;
+}
+
+lws_ssl_capable_write_no_ssl
+
+lws_callback_on_writable_all_protocol_vhost
+lws_callback_on_writable
+
+insert_wsi_socket_into_fds//加入client fd 由lws_context_init_server 调用=>lws_create_vhost
+==>lws_create_context
+
+
+
+
+lws_server_socket_service //accept client fd
+  lws_adopt_socket_vhost
+  	insert_wsi_socket_into_fds
+
+
+lws_handshake_server
+
+
+
+lws_close_free_wsi
+remove_wsi_socket_from_fds
+
+lws_service
+lws_plat_service
+lws_plat_service_tsi
+lws_service_fd
+lws_service_fd_tsi
+lws_read
+lws_interpret_incoming_packet
+
+lws_plat_service_tsi
+for (i = 0; i < pt->fds_count; ++i) {
+		pfd = &pt->fds[i];
+
+		if (!(pfd->events & LWS_POLLOUT))
+			continue;
+
+		wsi = wsi_from_fd(context, pfd->fd);
+		if (wsi->listener)
+			continue;
+		if (!wsi || wsi->sock_send_blocking)
+			continue;
+		pfd->revents = LWS_POLLOUT;
+		n = lws_service_fd(context, pfd);
+
+
+
+LWSS_AWAITING_CLOSE_ACK
+
+
+

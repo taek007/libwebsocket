@@ -1,0 +1,7 @@
+hello, zlog
+hello, zlog
+2016-07-06 14:28:24 INFO [1671:url.c:68] hello, zlog
+2016-07-06 14:31:40 INFO [1672:url.c:68] hello, zlog
+2016-07-06 14:31:41 INFO [1673:url.c:68] hello, zlog
+2016-07-06 14:31:42 INFO [1674:url.c:68] hello, zlog
+2016-07-06 14:31:42 INFO [1675:url.c:68] hello, zlog
